@@ -1,7 +1,7 @@
 import asyncio
 import websockets
 
-# this scrip to send number of animals and regularity in seconds
+# this script sends number of animals and regularity in seconds to the animal location generator app
 async def send_input_values():
     uri = "ws://localhost:8765"  # Server URI for the generator
     async with websockets.connect(uri) as websocket:
