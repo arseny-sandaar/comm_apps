@@ -41,6 +41,7 @@ def generate_next_position(previous_coordinate, regularity):
     return (x_prev + random.uniform(0,1) * speed * regularity, y_prev + random.uniform(0,1) * speed * regularity)
 
 # convert to WSG84
+# take Turin, Italy, location as an initial point
 turin_lat = 45.0703
 turin_lon = 7.6869
 
